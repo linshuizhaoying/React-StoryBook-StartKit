@@ -1,0 +1,30 @@
+{ 
+  "name": "React-StoryBook-StartKit",
+  "version": "0.1.0",
+  "private": true,
+  "author":"LinShuiZhaoYing",
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts-ts": "2.7.0"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.2.12",
+    "@storybook/addon-links": "^3.2.12",
+    "@storybook/react": "^3.2.12",
+    "@types/jest": "^21.1.2",
+    "@types/node": "^8.0.39",
+    "@types/react": "^16.0.12",
+    "@types/react-dom": "^16.0.1",
+    "@types/storybook__react": "^3.0.5",
+    "awesome-typescript-loader": "^3.2.3"
+  }
+}
