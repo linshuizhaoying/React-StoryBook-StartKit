@@ -1,12 +1,20 @@
-{ 
+{
   "name": "React-StoryBook-StartKit",
   "version": "0.1.0",
   "private": true,
-  "author":"LinShuiZhaoYing",
+  "author": "LinShuiZhaoYing",
   "dependencies": {
+    "@types/react-redux": "^5.0.10",
+    "@types/redux-logger": "^3.0.5",
+    "antd": "^2.13.7",
+    "history": "^4.7.2",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-scripts-ts": "2.7.0"
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-scripts-ts": "2.7.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0"
   },
   "scripts": {
     "start": "react-scripts-ts start",

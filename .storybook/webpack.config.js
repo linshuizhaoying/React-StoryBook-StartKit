@@ -8,6 +8,13 @@ module.exports = (baseConfig, env) => {
         test: /\.(ts|tsx)$/,
         loader: require.resolve('awesome-typescript-loader')
     });
-    config.resolve.extensions.push('.ts', '.tsx');
+
+    config.module.rules.push({
+        test: /\.less$/,
+        exclude: /node_modules/,
+        loaders: [ "style", "css", "less" ] 
+    })
+    
+    config.resolve.extensions.push('.ts', '.tsx', '.css', '.less');
     return config;
 };
