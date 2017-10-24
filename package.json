@@ -4,6 +4,10 @@
   "private": true,
   "author": "LinShuiZhaoYing",
   "dependencies": {
+    "@storybook/addon-info": "^3.2.13",
+    "@storybook/addon-knobs": "^3.2.13",
+    "@storybook/addon-notes": "^3.2.13",
+    "@storybook/addon-options": "^3.2.13",
     "@types/react-redux": "^5.0.10",
     "@types/redux-logger": "^3.0.5",
     "antd": "^2.13.7",

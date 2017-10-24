@@ -36,6 +36,7 @@ class App extends React.Component<any, any> {
     return (
       <div className="App">
         <div className="test"> {this.state.infoList} </div>
+        <h1>  {this.props.text} </h1>
         <Button type="danger" onClick={this.getInfo}> Click Me</Button>
         <Icon type="play-circle-o" />
       </div>
