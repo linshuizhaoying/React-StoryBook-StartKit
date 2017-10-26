@@ -12,9 +12,15 @@ module.exports = (baseConfig, env) => {
     config.module.rules.push({
         test: /\.less$/,
         exclude: /node_modules/,
-        loaders: [ "style", "css", "less" ] 
+        loaders: [ "style-loader", "css-loader", "less-loader" ] 
     })
-    
-    config.resolve.extensions.push('.ts', '.tsx', '.css', '.less');
+
+    config.module.rules.push({
+        test: /\.md$/,
+        loader: "raw-loader"
+    });
+
+
+    config.resolve.extensions.push('.ts', '.tsx', '.css', '.less', '.md', '.png', '.jpg', '.svg');
     return config;
 };

@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Button, Icon } from 'antd';
 import { connect } from 'react-redux';
 import { infoListRemote } from '../../actions/index';
-import './index.css';
+import './index.less';
 
 class App extends React.Component<any, any> {
   constructor (props: any) {

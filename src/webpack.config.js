@@ -12,7 +12,7 @@ module.exports = (baseConfig, env) => {
     config.module.loaders.push({
         test: /\.less$/,
         exclude: /node_modules/,
-        loaders: [ "style", "css", "less" ] 
+        loaders: [ "style-loader", "css-loader", "less-loader" ] 
     })
 
     config.resolve.extensions.push('.ts', '.tsx');
